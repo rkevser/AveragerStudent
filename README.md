@@ -22,9 +22,9 @@ Today, some companies release their black-box model as a service for users, wher
 
 
 OR train a nasty teacher model by: 
-    ```
-      python train_nasty.py --save_path='experiments/CIFAR10/kd_nasty_resnet18/'
-    ```
+```
+    python train_nasty.py --save_path='experiments/CIFAR10/kd_nasty_resnet18/'
+```
 
 2. Train an averager student: 
     ```
