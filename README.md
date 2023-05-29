@@ -26,6 +26,7 @@ OR train a nasty teacher model by:
 python train_nasty.py --save_path='experiments/CIFAR10/kd_nasty_resnet18/'
 ```
 
+
 2. Train an averager student: 
     ```
       python train_averager_stu.py --save_path='experiments/CIFAR100/averager_nasty_RN50_RN50/' --seed=101
