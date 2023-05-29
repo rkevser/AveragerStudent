@@ -1,0 +1,23 @@
+{
+    "model_name": "resnet18",
+
+    "learning_rate": 0.05,
+    "schedule": [120, 150, 170],
+    "gamma": 0.1,
+    "batch_size": 128,
+    "num_epochs": 180,
+    "num_workers": 4,
+    "augmentation": 1,
+    "cuda": 1,
+
+    "dataset": "cifar100",
+
+    "loc": 2,
+    "kd_delay": 20,
+
+
+    "teacher_model": "resnet50",
+    "teacher_resume": "experiments/CIFAR100/baseline/resnet50/cifar100_resnet50_baseline_adv_acc77.433.tar",
+    "temperature": 20,
+    "alpha": 0.9
+}
